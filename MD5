@@ -1,0 +1,14 @@
+02c6a8807b9a01ddf4d7498356fd7a85 *DESCRIPTION
+a200e327138e157db2892edc8494f5c2 *NAMESPACE
+ae612ac58518a4a67ab59098cd385f3d *R/RcppExports.R
+43a007a3223e3478f046a337d29c1a92 *R/read_mesh.R
+98f82353e08132c2c1ee568780d00b60 *R/tetrascatt.R
+1101392aaee4d1720ee76e7e4ea2bb6a *inst/extdata/Esfera_001_350.mesh
+6dd4daad1f61025f8a6f2d2044ece645 *inst/extdata/cubo_1m_12_5.mesh
+7b1e773234c6d269439bb52eae7545de *man/read_mesh.Rd
+c1060c2993f05c6c13ee160e8d4ea6d8 *man/tetrascatt.Rd
+fffafd06152f065d04c06eacdc68031d *man/tetrascatt_c.Rd
+6265bc44ff630fbefabbc6506ba550b7 *src/Makevars
+07844a92f5562ff699eb70076b2a292a *src/Makevars.win
+96008a7fd8c5a269f37f4c3af780ab7f *src/RcppExports.cpp
+fdf4b497d99dfc13d16c015723ebc476 *src/tetrascatt_OK.cpp

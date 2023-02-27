@@ -1,0 +1,5 @@
+useDynLib(tetrascatt, .registration=TRUE)
+importFrom(Rcpp, evalCpp)
+export("tetrascatt_c")
+export("tetrascatt")
+export("read_mesh")
