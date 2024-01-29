@@ -1,0 +1,8 @@
+# News
+
+# Changes in version 0.1.1
+
+* An error in the multiplicative factor for the integral in the Born approximation has been corrected in this version.
+* Reference to the arxiv version is included: *TetraScatt model: Born approximation for the estimation 
+of acoustic dispersion of fluid-like objects of arbitrary geometries*, https://arxiv.org/abs/2312.16721
+

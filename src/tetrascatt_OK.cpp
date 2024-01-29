@@ -547,7 +547,8 @@ arma::cx_vec tetrascatt_c(double cw, double g, double h,
   //ts = zeros( Float64, Nfreq ) ;
 
 
-  Gamma0 = (1 - g * h * h) / (g * h * h) - (g - 1) / g ;
+  // There was typo here Gamma0 = (1 - g * h * h) / (g * h * h) - (g - 1) / g ;
+  Gamma0 = (1 - g * h * h) / g - (g - 1) / g ;
   Ntet = Tet.n_rows;
   //Nver = Ver.n_rows;
   Nfreq = freq.n_elem;
@@ -617,7 +618,7 @@ arma::cx_vec tetrascatt_c(double cw, double g, double h,
         //IndicadorExpresiones[15] += 1 ;
       }
 
-      Suma =  Suma + jac *suma* Kmax*Kmax;
+      Suma =  Suma + (jac *suma* Kmax*Kmax/ (h*h) );
 
     }
 
